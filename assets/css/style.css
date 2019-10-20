@@ -310,6 +310,7 @@ main {
   text-align: left;
   z-index: 50!important;
   display: none;
+  position: absolute!important;
 }
 
 .modal-content ul {
