@@ -8,6 +8,14 @@ a:not([class^=btn]) {
   font-size: inherit;  
 }
 
+input[id*=modal-]:checked+label {
+  position:static;
+}
+
+input[id*=modal-]:checked+label:before {
+  position: absolute!important;
+}
+
 label[for*=collapsible-] {
   border-radius: 0;
   position: relative;
